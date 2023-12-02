@@ -4,7 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 
-namespace QNAWeb.Controllers
+namespace QNA_App.Controllers
 {
     public class DashBoardController : Controller
     {
