@@ -2,11 +2,10 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
-using System.Web.Mvc;
 
 namespace QNA_App.Controllers
 {
-    public class DashBoardController : Controller
+    public class DashBoardController : Controllers
     {
        
         public ActionResult Index()
