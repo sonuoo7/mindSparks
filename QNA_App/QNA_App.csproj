@@ -127,6 +127,7 @@
     <Content Include="Content\assets\img\clients\client-6.png" />
     <Content Include="Content\assets\img\favicon.png" />
     <Content Include="Content\assets\img\hero-bg.jpg" />
+    <Content Include="Content\assets\img\Logo.png" />
     <Content Include="Content\assets\img\portfolio\portfolio-1.jpg" />
     <Content Include="Content\assets\img\portfolio\portfolio-2.jpg" />
     <Content Include="Content\assets\img\portfolio\portfolio-3.jpg" />
@@ -261,6 +262,7 @@
     <Content Include="Content\assets\vendor\purecounter\purecounter_vanilla.js.map" />
     <Content Include="Content\assets\vendor\swiper\swiper-bundle.min.js.map" />
     <None Include="packages.config" />
+    <None Include="Properties\PublishProfiles\FolderProfile.pubxml" />
     <None Include="Scripts\jquery.validate-vsdoc.js" />
     <Content Include="Scripts\jquery.validate.js" />
     <Content Include="Scripts\jquery.validate.min.js" />
@@ -276,7 +278,9 @@
     <Content Include="Views\Shared\EditorTemplates\EmailAddress.cshtml" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Web.config" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Views\_ViewStart.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />

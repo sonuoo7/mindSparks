@@ -1,0 +1,1 @@
+<%@ Application Codebehind="Global.asax.cs" Inherits="QNA_App.MvcApplication" Language="C#" %>
